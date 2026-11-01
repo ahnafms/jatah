@@ -1,0 +1,6 @@
+:root{--bg:#1C1D22;--surface:#25272E;--text:#F3F4F6;--sub:#9095A0;--violet:#9D8CFF;--pink:#FF7EB6;--yellow:#FFD45C}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:64px 16px}
+.pills{display:flex;gap:6px;margin-bottom:28px}.pills i{display:block;width:22px;height:34px;border-radius:9px}
+h1{font-size:44px;line-height:1.05;letter-spacing:-1.5px;margin:0 0 12px}h2{font-size:20px;margin:36px 0 8px}
+p,li{color:var(--sub)}a{color:var(--violet)}footer{margin-top:56px;font-size:14px;color:var(--sub)}
